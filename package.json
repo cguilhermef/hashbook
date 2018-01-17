@@ -1,0 +1,17 @@
+{
+  "name": "hash-book",
+  "version": "0.1.0",
+  "description": "Ferramenta de mensagens inalteráveis se o uso de e-mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frontend.guilherme@rz2.com.br",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "dependencies": {
+    "fileserver": "^0.2.2"
+  }
+}
