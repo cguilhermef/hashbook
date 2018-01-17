@@ -14,6 +14,7 @@ html {
 }
 
 .header-links {
+  align-items: center;
   display: flex;
   flex: 1 0 auto;
 }
@@ -38,6 +39,10 @@ html {
 
 .header-link + .header-link {
   margin-left: 1.5rem;
+}
+
+.content {
+  margin-top: 40px;
 }
 
 .footer {

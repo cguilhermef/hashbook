@@ -9,7 +9,7 @@
   "author": "frontend.guilherme@rz2.com.br",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^4.0.0-beta.3"
   },
   "dependencies": {
     "fileserver": "^0.2.2"
