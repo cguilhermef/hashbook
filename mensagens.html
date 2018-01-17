@@ -19,9 +19,8 @@
       <h1 class="header-title">Hash-book</h1>
       <div class="header-links">
         <a href="index.html" class="header-link">Início</a>
-        <a href="criar-conta.html" class="header-link">Criar conta</a>
-        <a href="mensagens.html" class="header-link">Mensagens</a>
-        <a href="login.html" class="header-link">Login</a>
+        <a href="criar-hash.html" class="header-link">Criar hash</a>
+        <a href="mensagens.html" class="header-link">Conversas</a>
       </div>
     </div>
   </div>
@@ -29,29 +28,49 @@
   <div class="content">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6">
-          <h3 class="column-title">Contatos</h3>
-          <ul class="list-group">
+        <div class="col-12 col-md-5">
+          <h3 class="column-title">Conversas</h3>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-control-sm" placeholder="Hash">
+            <div class="input-group-append">
+              <button class="btn btn-primary btn-sm" type="button">Adicionar</button>
+            </div>
+          </div>
+          <ul class="list-group mt-3">
             <li class="list-group-item">
-              <strong>Lorem</strong>
               <p>35da558e-2aa7-470a-80ee-7a8e1ffcfdba</p>
-              <a href="#">remover</a>
+              <button class="btn btn-primary btn-sm">Abrir</button>
+              <button class="btn btn-danger btn-sm">Remover</button>
             </li>
-            <li class="list-group-item">
-              <strong>Ipsum</strong>
+            <li class="list-group-item justify-content-between">
               <p>98a87d8f-7513-4b80-bbd4-971b2162a719</p>
-              <a href="#">remover</a>
+              <button class="btn btn-primary btn-sm">Abrir</button>
+              <button class="btn btn-danger btn-sm">Remover</button>
             </li>
             <li class="list-group-item">
-              <strong>Dolor</strong>
               <p>b9831e9c-6ecc-4c14-b9c8-7c7fac3e1a8f</p>
-              <a href="#">remover</a>
+              <button class="btn btn-primary btn-sm">Abrir</button>
+              <button class="btn btn-danger btn-sm">Remover</button>
             </li>
           </ul>
         </div>
         <div class="col-12 col-md-6">
-          <h3 class="column-title">Publicar mensagem</h3>
-          <h3 class="column-title">Mensagens</h3>
+          <h3 class="column-title">Conversa</h3>
+          <p>35da558e-2aa7-470a-80ee-7a8e1ffcfdba</p>
+          <div class="message">
+            <div class="text-left">
+              lalalaa?
+            </div>
+            <div class="text-right">
+              lalalaa
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Mensagem">
+            <div class="input-group-append">
+              <button class="btn btn-success" type="button">Enviar</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

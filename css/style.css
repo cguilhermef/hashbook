@@ -45,6 +45,11 @@ html {
   margin-top: 40px;
 }
 
+.message {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
 .footer {
   align-items: center;
   background-color: black;
